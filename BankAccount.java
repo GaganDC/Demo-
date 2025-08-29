@@ -1,21 +1,4 @@
-public class matrix {
-    public static void main(String[] args) {
-        int[][] mat = {
-            {1, 0, 0},
-            {0, 1, 0},
-            {0, 0, 1}
-        };
-
-        // Example: create a BankAccount object and use its methods
-        BankAccount account = new BankAccount("Alice", 1000.0);
-        account.deposit(500);
-        account.withdraw(200);
-        System.out.println("Balance: " + account.getBalance());
-    }
-}
-
-// BankAccount class definitiongit 
-class BankAccount {
+public class BankAccount {
     private String accountHolder;
     private double balance;
 
